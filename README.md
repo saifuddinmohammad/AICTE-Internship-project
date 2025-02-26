@@ -18,11 +18,13 @@ Libraries: OpenCV, NumPy
 Security Mechanism: Password-based access control
 
 How It Works:
+
 Encryption:
 
 The user enters a secret message and sets a password.
 The message is converted into ASCII values and embedded within the image pixels.
 The modified image is saved as encryptedImage.png.
+
 Decryption:
 
 The user provides the correct password to retrieve the hidden message.
