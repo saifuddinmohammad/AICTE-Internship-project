@@ -1,11 +1,32 @@
 Secure Data Hiding in Images Using Steganography
 
-How to Use
 
-1. Clone the Repository
+1.Description:-
+This project focuses on steganography, a technique used to hide secret information within digital images without significantly altering their appearance. Unlike cryptography, which scrambles data to make it unreadable, steganography conceals data in such a way that its presence remains undetected.
 
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+The implementation of this project involves encoding a secret message into an image file by modifying pixel values in a structured manner. A password-based authentication system ensures that only authorized users can extract the hidden message.
+
+Key Features:
+✅ Secure message embedding within an image.
+✅ Password-protected encryption and decryption.
+✅ Image integrity is maintained without visible distortion.
+✅ Simple command-line interface for usability.
+
+Technologies Used:
+Programming Language: Python
+Libraries: OpenCV, NumPy
+Security Mechanism: Password-based access control
+
+How It Works:
+Encryption:
+
+The user enters a secret message and sets a password.
+The message is converted into ASCII values and embedded within the image pixels.
+The modified image is saved as encryptedImage.png.
+Decryption:
+
+The user provides the correct password to retrieve the hidden message.
+The program extracts ASCII values from the image and reconstructs the original message.
 
 2. Install Dependencies
 
